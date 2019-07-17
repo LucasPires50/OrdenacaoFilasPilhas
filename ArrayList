@@ -1,0 +1,33 @@
+        // Alocação dinâmica de memoria
+        // dentro do <> coloca o tipo de dado que você quer trabalhar, int, string, double e etc
+        ArrayList<Integer> lista = new ArrayList();
+        lista.add(10);
+        lista.add(8);
+        lista.add(2);
+        lista.add(6);
+        lista.add(70);
+        lista.add(8);
+        lista.add(5);
+        lista.add(7);
+
+        int aux = 0;
+        //em vez to lenght usa o size
+        for (int j = 0; j < lista.size(); j++) {
+            aux = lista.get(j);
+            System.out.println(aux);
+
+        }
+        lista.add(89);
+        lista.add(102);
+        // removeu a primeira posição 
+        lista.remove(0);
+        System.out.println("--------Array Lista Editado--------");
+        for (int j = 0; j < lista.size(); j++) {
+            aux = lista.get(j);
+            System.out.println(aux);
+        }
+        System.out.println("--------Posição zero--------");
+        System.out.println(lista.get(0));
+        //para acessar o ultimo elemento do arraylist
+        System.out.println("--------Ultimo elemento--------");
+        System.out.println(lista.get(lista.size() - 1));
