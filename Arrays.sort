@@ -1,0 +1,9 @@
+ int[] arrayNumeros = {1, 9, 6, 4, 5, 8};
+ 
+        //ordena a array em memoria, mas é limitado, pois, não recebe mais posições
+        Arrays.sort(arrayNumeros);
+
+        for (int i = 0; i < arrayNumeros.length; i++) {
+            //System.out.println(arrayNumeros[i]);
+
+        }
