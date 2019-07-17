@@ -1,0 +1,26 @@
+
+        List<Integer> pilha = new LinkedList();
+        pilha.add(120);
+        pilha.add(25);
+        pilha.add(78);
+        pilha.add(12);
+        pilha.add(8);
+        pilha.add(985);
+
+        //chama a ultima posição e a elimina e passando  para o proximo, "o ultimo que chega é o primeiro a sair"
+        System.out.println("Proximo item: ");
+        System.out.println(pilha.get(pilha.size() - 1));
+        pilha.remove(pilha.size() - 1);
+
+        pilha.add(78);
+        pilha.add(23);
+        pilha.add(25);
+        pilha.add(56);
+
+        System.out.println("Proximo item: ");
+        System.out.println(pilha.get(pilha.size() - 1));
+        pilha.remove(pilha.size() - 1);
+
+        System.out.println("Proximo item: ");
+        System.out.println(pilha.get(pilha.size() - 1));
+        pilha.remove(pilha.size() - 1);
