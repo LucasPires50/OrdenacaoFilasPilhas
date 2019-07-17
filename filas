@@ -1,0 +1,22 @@
+        
+        List<Integer> fila = new LinkedList();
+        fila.add(120);
+        fila.add(25);
+        fila.add(78);
+        fila.add(12);
+        fila.add(8);
+        fila.add(985);
+        
+        //chama a primera posição e a elimina e passando  para o proximo, "o que chega primeirom, sai primeiro"
+        System.out.println("Proximo item: ");
+        System.out.println(fila.get(0));
+        fila.remove(0);
+        
+        System.out.println("Proximo item: ");
+        System.out.println(fila.get(0));
+        fila.remove(0);
+        
+        System.out.println("Proximo item: ");
+        System.out.println(fila.get(0));
+        fila.remove(0);
+        
